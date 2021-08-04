@@ -84,8 +84,15 @@ h1 {
 }
 
 header nav {
-    
     margin: 7px 0;
+}
+
+header nav ul {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   align-items: center;
+   list-style:none;
 }
 
 header nav ul li {
@@ -95,7 +102,7 @@ header nav ul li {
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vwgit ;
 }
 
 header h1 {
@@ -111,9 +118,7 @@ header a {
     color: #fce138;
 }
 
-header nav ul {
-    list-style-type: none;
-}
+
 
 footer {
     background: #fce138;
